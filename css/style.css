@@ -7,55 +7,18 @@ header,main,footer,nav,aside,section
 {
     display:block;
 }
-header,nav,footer,.cover-section{
+header,nav,footer,main .cover-section{
     background-color: #ED4C5C;
-    display:block;
+    width:100%;
 }
-.features
-{
-    background-color: #FFFFFF;
-}
-.features h1,.features p,.features a,.hobbies h1,.hobbies article,.footer-lower
-{
-    margin-left: 50px;
-}
-.hobbies
-{
-    background-color: #F5F4F4;
-    padding-top:57px;
-    padding-bottom:271px;
-}
-.features img{
-    width: 350px;
-    height: 248.86px;
-}
-nav ul{
-    margin-left: 50px;
-}
-li{
-    display:inline;
-}
-.nav-links{
-    display:inline;
+a{
     text-decoration: none;
-    font-size: 14px;
-    color: #FFFFFF;
-    font-family: Lato;
 }
-.nav-links:hover{
-    color: #c4bdbd60;
-}
-.nav-li{
-    margin-left: 20px;
-}
-.nav-li:first-child {
-    margin-left:0;
+header a,nav ul,footer section,.cover-section section{
+    margin-left:50px;
 }
 header{
-    width: 100%;
-    padding-top: 59px;
-    padding-left: 50px;
-    padding-bottom: 55px;
+    padding-top:59px;
 }
 #logo{
     
@@ -76,11 +39,34 @@ header{
     color: #FFFFFF;
     white-space:nowrap;
 }
+nav ul{
+    margin-left: 50px;
+    padding-top: 48px;
+}
+li{
+    display:inline;
+}
+.nav-links{
+    display:inline;
+    text-decoration: none;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: Lato;
+}
+.nav-links:hover{
+    color: #c4bdbd60;
+}
+.nav-li{
+    margin-left: 20px;
+}
+.nav-li:first-child {
+    margin-left:0;
+}
 #image-man{
     height: 311px;
     width:445px;
     border-radius: 15px;
-    margin-left:89px;
+    margin-left:39px;
     margin-top:45px;
 }
 #signup-button{
@@ -91,7 +77,6 @@ header{
     border: none;
     margin-top: 45px;
     margin-bottom: 55px;
-    margin-left: 50px;
     font-size:14px;
     font-weight: 600;
     font-style: normal;
@@ -118,15 +103,18 @@ header{
     display: block;
     text-decoration: none;
 }
-.features article{
+.features article, .features h1,.features p,.features a{
     margin-left: 50px;
 }
-.features-photos {
+.features-photos{
     margin-right: 30px;
-    width: 350px;
-    height: 248.86px;
     text-align: center;
     font-size: 0px;
+}
+.features-photos img{
+    width: 350px;
+    height: 248.86px;
+    border-radius: 8px;
 }
 .features-photos a{
     width: 350px;
@@ -145,7 +133,12 @@ header{
     box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
-
+.hobbies{
+    padding-left: 50px;
+    padding-top: 57px;
+    padding-bottom: 271px;
+    background-color: #F5F4F4;;
+}
 .hobbies h1{
     padding-bottom: 56px;
     font-weight: 600;

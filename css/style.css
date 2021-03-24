@@ -6,7 +6,7 @@
 header,main,footer,nav,aside,section
 {
     display:block;
-    font-family: 'Lato',sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 header,nav,footer,main .cover-section{
     background-color: #ED4C5C;

@@ -6,6 +6,7 @@
 header,main,footer,nav,aside,section
 {
     display:block;
+    font-family: 'Lato',sans-serif;
 }
 header,nav,footer,main .cover-section{
     background-color: #ED4C5C;
@@ -51,7 +52,6 @@ li{
     text-decoration: none;
     font-size: 14px;
     color: #FFFFFF;
-    font-family: Lato;
 }
 .nav-links:hover{
     color: #c4bdbd60;
@@ -153,7 +153,6 @@ li{
     height: 226px;
     text-align: center;
     color: #000000;
-    font-family: Lato;
     margin-right: 30px;
 }
 
@@ -170,7 +169,6 @@ li{
     font-weight: bold;
 }
 .hobbies p{
-    font-family: Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -191,7 +189,6 @@ li{
 .footer-lower span{
     padding-left: 55px;
     font-size: 24px;
-    font-family: Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
